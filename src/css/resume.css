@@ -1,0 +1,66 @@
+:root{
+    --primary: #00AABB;
+    --secondary: #3C4048;
+    --grey: #B2B2B2;
+    --offwhite: #EAEAEA;
+    --black: black;
+}
+.BuilderBody{
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    background-color: var(--secondary);
+    width: 15vw;
+    padding-top: 20px;
+    color: var(--offwhite);
+}
+.sidebar .sideBody{
+    padding-top: 70%;
+}
+.sidebar .sideBody .title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+.sidebar .sideBody ul li{
+    align-items: center;
+    list-style-type: none;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.sidebar .sideBody .options ul :hover{
+    background-color: var(--primary);
+    border-radius: 20px;
+    /* color: var(--black); */
+    font-weight: 500;
+}
+.form{
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 100vh;
+    /* box-shadow: inset 0 0 10px #000000; */
+}
+.form .title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.resume{
+    width: 50vw;
+    /* background-color: #00AABB; */
+    /* padding: 20px; */
+    margin: 10px 10px 10px 280px;
+    /* box-shadow: inset 0 0 10px #000000; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.resume .title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+}

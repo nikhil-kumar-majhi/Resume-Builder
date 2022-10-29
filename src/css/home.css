@@ -1,0 +1,70 @@
+:root{
+  --primary: #00AABB;
+  --secondary: #3C4048;
+  --grey: #B2B2B2;
+  --offwhite: #EAEAEA;
+}
+.NavbarSec{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  align-items: center;
+}
+.NavbarSec .menusec ul{
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.NavbarSec .menusec ul li{
+  list-style-type: none;
+  font-weight: 600;
+  
+}
+.HeaderSec{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: var(--secondary);  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HeaderTxt{
+  padding-right: 70px;
+}
+.HeaderTxt .MainTxt{
+  font-size: 52px;
+  color: #EAEAEA;
+}
+.HeaderTxt .Brief{
+  font-size: 15px;
+  color: #EAEAEA;
+  margin-bottom: 5%;
+}
+.HeaderTxt .btn1{
+  background-color: var(--primary);
+  border: none;
+  border-radius: 16px;
+  width: 132px;
+  height: 36px;
+  margin-right: 5%;
+  font-weight: 600;
+}
+.HeaderTxt .btn1 .btn1txt{
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: var(--offwhite);
+}
+.HeaderTxt .btn2{
+  background-color: var(--grey);
+  border: none;
+  border-radius: 16px;
+  width: 132px;
+  height: 36px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.headerpic {
+  height: 40vmin;
+  pointer-events: none;
+}
